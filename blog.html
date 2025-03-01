@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Questionaire</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@5.0.0-beta.8/daisyui.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  </head>
+  <body>
+    <nav
+      class="flex justify-between items-center px-6 py-4 bg-white text-black"
+    >
+      <div class="flex items-center space-x-3">
+        <img
+          src="./assets/logo.png"
+          alt="Logo"
+          class="w-10 h-10 rounded-full"
+        />
+        <span class="text-xl font-bold">DevBoard</span>
+      </div>
+      <div class="flex items-center space-x-3">
+        <button
+          class="bg-[rgba(55,82,253,1)] text-white text-sm px-4 py-1 rounded-md hover:bg-blue-600"
+        >
+          Back to Desk
+        </button>
+      </div>
+    </nav>
+
+    <!--blogs section-->
+    <h2 class="text-center text-2xl text-black font-bold">Blogs</h2>
+    <div class="bg-white p-6 rounded-lg shadow-md w-[90%] max-w-4xl mx-auto">
+      <!-- Question Section -->
+      <h3 class="text-lg font-bold text-gray-900">
+        Question-1: What are the different ways to select an element in the DOM?
+
+      </h3>
+
+      <!-- Dotted Line -->
+      <div class="border-b-2 border-dotted border-gray-400 my-4"></div>
+
+      <!-- Answer Section -->
+      <p class="text-gray-700">
+        There are four different ways to select an element: getElementById, querySelector, getElementsByClassName, querySelectorAll
+      </p>
+    </div>
+  
+    </div>
+    <div class="bg-white p-6 rounded-lg shadow-md w-[90%] max-w-4xl mx-auto">
+      <!-- Question Section -->
+      <h3 class="text-lg font-bold text-gray-900">
+        Question-2: What is the difference between innerHTML, innerText, and textContent ?
+
+      </h3>
+
+      <!-- Dotted Line -->
+      <div class="border-b-2 border-dotted border-gray-400 my-4"></div>
+
+      <!-- Answer Section -->
+      <p class="text-gray-700">
+        The key diffrences between them are innerHTML: sets the HTML inside an element, innerText:sets the visible text inside an element and textContent sets all text content, icluding hidden elements.
+      </p>
+    </div>
+  
+    </div>
+    <div class="bg-white p-6 rounded-lg shadow-md w-[90%] max-w-4xl mx-auto">
+      <!-- Question Section -->
+      <h3 class="text-lg font-bold text-gray-900">
+        Question-3: What is event delegation in the DOM?
+
+      </h3>
+
+      <!-- Dotted Line -->
+      <div class="border-b-2 border-dotted border-gray-400 my-4"></div>
+
+      <!-- Answer Section -->
+      <p class="text-gray-700">
+        It is a method where a single parent element handles event for mutiple child elements.Basically event listeners are attached to the parent instead of attaching them to each child element.
+      </p>
+    </div>
+  
+    </div>
+    <div class="bg-white p-6 rounded-lg shadow-md w-[90%] max-w-4xl mx-auto">
+      <!-- Question Section -->
+      <h3 class="text-lg font-bold text-gray-900">
+        Question-4: What is event bubbling in the DOM?
+
+      </h3>
+
+      <!-- Dotted Line -->
+      <div class="border-b-2 border-dotted border-gray-400 my-4"></div>
+
+      <!-- Answer Section -->
+      <p class="text-gray-700">
+        It is a technique where an event begins from the targeted child element and it generates to its parent triggering event handlers along the way.
+
+      </p>
+    </div>
+  
+    </div>
+    <div class="bg-white p-6 rounded-lg shadow-md w-[90%] max-w-4xl mx-auto">
+      <!-- Question Section -->
+      <h3 class="text-lg font-bold text-gray-900">
+        Question-5: How do you create, add, and remove elements using JavaScript?
+
+
+      </h3>
+
+      <!-- Dotted Line -->
+      <div class="border-b-2 border-dotted border-gray-400 my-4"></div>
+
+      <!-- Answer Section -->
+      <p class="text-gray-700">
+        There are many methods to add, create and remove elemets such as to create we use document.createElement, to add element we use appendChild(), append(), before(),after().Last but not the least to remove element removeChild(). 
+      </p>
+    </div>
+  
+    </div>
+  </body>
+</html>

@@ -14,7 +14,6 @@
 
   <body class="transition-all duration-500" id="body">
     <!-- Navbar -->
-    <!-- Navbar -->
     <nav
       class="flex justify-between items-center px-6 py-4 bg-white text-black"
     >
@@ -78,28 +77,187 @@
           </div>
 
           <div
+            id="clickable-card"
             class="bg-gradient-to-r from-[#3752FD] via-[#6C7FFA] to-[#9BA8F8] p-4 rounded-lg shadow-md flex items-center"
           >
             <img src="./assets/board.png" class="mr-4" />
-            <div><h3 class="text-white">Discover Something New Today!</h3></div>
+            <div>
+              <h3 class="text-white">Discover Something New Today!</h3>
+            </div>
           </div>
           <div class="bg-white p-4 rounded-lg shadow-md">
             <img src="./assets/calender.png" class="mr-4" />
-            <div><h3 class="text-black">February 28, 2025</h3></div>
+            <div>
+              <h3 id="current-date" class="text-black">February 28, 2025</h3>
+            </div>
           </div>
         </div>
-
+        <div class="border-b-2 border-dotted border-gray-400 my-4"></div>
         <!-- Bottom 6 Cards -->
         <div class="grid grid-cols-3 gap-4">
-          <div class="bg-white p-4 rounded-lg shadow-md">Item 1</div>
-          <div class="bg-white p-4 rounded-lg shadow-md">Item 2</div>
-          <div class="bg-white p-4 rounded-lg shadow-md">Item 3</div>
-          <div class="bg-white p-4 rounded-lg shadow-md">Item 4</div>
-          <div class="bg-white p-4 rounded-lg shadow-md">Item 5</div>
-          <div class="bg-white p-4 rounded-lg shadow-md">Item 6</div>
+          <!-- Task Card 1 -->
+          <div class="bg-white p-4 rounded-lg shadow-md">
+            <div
+              class="text-sm font-semibold bg-gray-200 text-gray-700 px-3 py-1 rounded-md inline-block"
+            >
+              ShopEase
+            </div>
+
+            <h3 class="text-lg font-bold mt-2">Fix Mobile Button Issue</h3>
+
+            <p class="bg-gray-100 text-gray-700 p-3 rounded-md mt-2">
+              Debug using Chrome DevTools, check for overlapping elements, and
+              ensure onClick works properly
+            </p>
+
+            <div class="border-b-2 border-dotted border-gray-400 my-4"></div>
+
+            <div class="flex justify-between items-center">
+              <span class="text-gray-500 text-sm">Feb 28, 2025</span>
+              <button
+                class="bg-[rgba(55,82,253,1)] text-white text-sm px-4 py-1 rounded-md hover:bg-blue-600"
+              >
+                Completed
+              </button>
+            </div>
+          </div>
+
+          <!-- Task Card 2 -->
+          <div class="bg-white p-4 rounded-lg shadow-md">
+            <div
+              class="text-sm font-semibold bg-gray-200 text-gray-700 px-3 py-1 rounded-md inline-block"
+            >
+              CloudSync
+            </div>
+
+            <h3 class="text-lg font-bold mt-2">Add Dark Mode</h3>
+
+            <p class="bg-gray-100 text-gray-700 p-3 rounded-md mt-2">
+              Store the user's preference in localStorage, update CSS variables
+              dynamically, and apply a smooth transition effect.
+            </p>
+
+            <div class="border-b-2 border-dotted border-gray-400 my-4"></div>
+
+            <div class="flex justify-between items-center">
+              <span class="text-gray-500 text-sm">Feb 28, 2025</span>
+              <button
+                class="bg-[rgba(55,82,253,1)] text-white text-sm px-4 py-1 rounded-md hover:bg-blue-600"
+              >
+                Completed
+              </button>
+            </div>
+          </div>
+
+          <!-- Task Card 3 -->
+          <div class="bg-white p-4 rounded-lg shadow-md">
+            <div
+              class="text-sm font-semibold bg-gray-200 text-gray-700 px-3 py-1 rounded-md inline-block"
+            >
+              SwiftPay
+            </div>
+
+            <h3 class="text-lg font-bold mt-2">Optimize Home page </h3>
+
+            <p class="bg-gray-100 text-gray-700 p-3 rounded-md mt-2">
+              Debug using Chrome DevTools, check for overlapping elements, and
+              ensure onClick works properly
+            </p>
+
+            <div class="border-b-2 border-dotted border-gray-400 my-4"></div>
+
+            <div class="flex justify-between items-center">
+              <span class="text-gray-500 text-sm">Feb 28, 2025</span>
+              <button
+                class="bg-[rgba(55,82,253,1)] text-white text-sm px-4 py-1 rounded-md hover:bg-blue-600"
+              >
+                Completed
+              </button>
+            </div>
+          </div>
+
+          <!-- Task Card 4 -->
+          <div class="bg-white p-4 rounded-lg shadow-md">
+            <div
+              class="text-sm font-semibold bg-gray-200 text-gray-700 px-3 py-1 rounded-md inline-block"
+            >
+              Meta
+            </div>
+
+            <h3 class="text-lg font-bold mt-2">Add new emoji 🤲</h3>
+
+            <p class="bg-gray-100 text-gray-700 p-3 rounded-md mt-2">
+              Debug using Chrome DevTools, check for overlapping elements, and
+              ensure onClick works properly
+            </p>
+
+            <div class="border-b-2 border-dotted border-gray-400 my-4"></div>
+
+            <div class="flex justify-between items-center">
+              <span class="text-gray-500 text-sm">Feb 28, 2025</span>
+              <button
+                class="bg-[rgba(55,82,253,1)] text-white text-sm px-4 py-1 rounded-md hover:bg-blue-600"
+              >
+                Completed
+              </button>
+            </div>
+          </div>
+
+          <!-- Task Card 5 -->
+          <div class="bg-white p-4 rounded-lg shadow-md">
+            <div
+              class="text-sm font-semibold bg-gray-200 text-gray-700 px-3 py-1 rounded-md inline-block"
+            >
+              Google LLC
+            </div>
+
+            <h3 class="text-lg font-bold mt-2">Integrate OpenAI API</h3>
+
+            <p class="bg-gray-100 text-gray-700 p-3 rounded-md mt-2">
+              Debug using Chrome DevTools, check for overlapping elements, and
+              ensure onClick works properly
+            </p>
+
+            <div class="border-b-2 border-dotted border-gray-400 my-4"></div>
+
+            <div class="flex justify-between items-center">
+              <span class="text-gray-500 text-sm">Feb 28, 2025</span>
+              <button
+                class="bg-[rgba(55,82,253,1)] text-white text-sm px-4 py-1 rounded-md hover:bg-blue-600"
+              >
+                Completed
+              </button>
+            </div>
+          </div>
+
+          <!-- Task Card 6 -->
+          <div class="bg-white p-4 rounded-lg shadow-md">
+            <div
+              class="text-sm font-semibold bg-gray-200 text-gray-700 px-3 py-1 rounded-md inline-block"
+            >
+              Glassdoor
+            </div>
+
+            <h3 class="text-lg font-bold mt-2">Improve Job searching</h3>
+
+            <p class="bg-gray-100 text-gray-700 p-3 rounded-md mt-2">
+              This is the description of the sixth task. It provides details
+              about what needs to be done.
+            </p>
+
+            <div class="border-b-2 border-dotted border-gray-400 my-4"></div>
+
+            <div class="flex justify-between items-center">
+              <span class="text-gray-500 text-sm">Feb 28, 2025</span>
+              <button
+                class="bg-[rgba(55,82,253,1)] text-white text-sm px-4 py-1 rounded-md hover:bg-blue-600"
+              >
+                Completed
+              </button>
+            </div>
+          </div>
         </div>
       </div>
-
       <!-- Right Activity Log -->
       <div class="w-1/3 bg-white p-4 rounded-lg shadow-lg">
         <h2 class="text-lg font-bold mb-4">Activity Log</h2>
